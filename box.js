@@ -46,13 +46,11 @@ class Box {
         translate(pos.x, pos.y);
         rotate(angle);
         fill(200, 20, 20, 255);
-        circle(this.size / 2, this.size / 2, 7);
+        circle(this.size / 2, this.size / 2, 6);
         fill(20, 200, 20, 255);
-        circle(-this.size / 2, -this.size / 2, 7);
+        circle(-this.size / 2, -this.size / 2, 6);
         fill(20, 20, 200, 255);
-        circle(this.size / 2, -this.size / 2, 7);
-        // fill(100, 100, 100, 255);
-        // circle(-this.size / 2, this.size / 2, 7);
+        circle(this.size / 2, -this.size / 2, 6);
         pop();
     }
 
